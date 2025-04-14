@@ -34,12 +34,7 @@ const SalesPage = () => {
 						value={salesStats.averageOrderValue}
 						color='#10B981'
 					/>
-					<StatCard
-						name='Conversion Rate'
-						icon={TrendingUp}
-						value={salesStats.conversionRate}
-						color='#F59E0B'
-					/>
+					
 					<StatCard name='Sales Growth' icon={CreditCard} value={salesStats.salesGrowth} color='#EF4444' />
 				</motion.div>
 
